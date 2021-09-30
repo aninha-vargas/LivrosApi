@@ -1,0 +1,16 @@
+### Iniciar livros
+POST https://localhost:5001/livros/livrosestante/iniciar
+
+###Listar livros
+GET https://localhost:5001/livros/livrosestante/listar
+
+### Cadastrar
+POST https://localhost:5001/livros/livrosestante/cadastrar
+Content-Type: application/json
+
+{
+    "Titulo" : "Gato Preto",
+    "Autor" : "Edgar Allan Poe",
+    "Genero" : "Terror",
+    "Ano": 1882
+}
